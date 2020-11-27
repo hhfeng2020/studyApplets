@@ -1,3 +1,11 @@
 <!--pages/home/home.wxml-->
-<text class="fontColor">我的小程序</text>
-<button size="mini">按钮</button>
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">
+  获取授权
+</button>
+
+<view>
+  <text>用户信息获取方式3(组件)</text>
+  <open-data type="userNickName"></open-data>
+  <open-data type="userAvatarUrl"></open-data>
+</view>
+
