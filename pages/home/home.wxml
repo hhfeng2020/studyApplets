@@ -1,0 +1,3 @@
+<!--pages/home/home.wxml-->
+<text class="fontColor">我的小程序</text>
+<button size="mini">按钮</button>
